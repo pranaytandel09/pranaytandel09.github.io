@@ -405,10 +405,13 @@ img {
 .home_blob {
     width: 200px;
     fill: grey;
+    
 }
 .home_blob-img {
-    width: 175px;
+    width: 153px;
     transition: 0.5s;
+
+    
 }
 .home_blob-img:hover {
     transform-origin: 50% 50%;
