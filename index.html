@@ -13,33 +13,41 @@
     <link rel="stylesheet" href="./css/swiper-bundle.min.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    
 
 
 <body>
     <!-- ========== HEADER ========== -->
     <header class="header" id="header">
         <nav class="nav container">
-            <a href="" class="nav_logo"><<span> P</span>ranay /></a>
+            <a href="#" class="nav_logo">
+                <<span> P</span>ranay /></a>
             <div class="nav_menu" id="nav-menu">
                 <ul class="nav_list grid">
                     <li class="nav_item">
-                        <a href="#home" class="nav_link nav-link home active-link">
+                        <a href="#home" class="nav_link active-link">
                             <i class="uil uil-estate nav_icon"></i> Home
                         </a>
                     </li>
                     <li class="nav_item">
-                        <a href="#about" class="nav_link nav-link about">
+                        <a href="#about" class="nav_link">
                             <i class="uil uil-user nav_icon"></i> About
                         </a>
                     </li>
+                    <!-- <li class="nav_item">
+                        <a href="#work" class="nav_link">
+                            <i class="uil uil-briefcase-alt nav_icon"></i> Experience
+                        </a>
+                    </li> -->
                     <li class="nav_item">
-                        <a href="#skills" class="nav_link nav-link skills">
+                        <a href="#skills" class="nav_link">
                             <i class="uil uil-file-alt nav_icon"></i> Skills
                         </a>
                     </li>
                     <li class="nav_item">
-                        <a href="#projects" class="nav_link nav-link projects">
+                        <a href="#projects" class="nav_link">
                             <i class="uil uil-briefcase-alt nav_icon"></i> Projects
                         </a>
                     </li>
@@ -49,15 +57,14 @@
                         </a>
                     </li>
                     <li class="nav_item">
-                        <a href="#contact" class="nav_link nav-link contact">
+                        <a href="#contact" class="nav_link">
                             <i class="uil uil-message nav_icon"></i> Contact Me
                         </a>
                     </li>
                     <li class="nav_item">
-                        <button id="resume-button-1" class="nav-link resume">
-                            <a href="./Images//Pranay-Tandel-Resume.pdf" class="nav_link" id="resume-link-1"
-                                
-                                onclick="window.open('https://drive.google.com/file/d/1-TxPj303E35V_bFD-AXyITZQoGII0plF/view?usp=sharing')"
+                        <button id="resume-button-1" class="nav-link">
+                            <a href="./Images/Pranay-Tandel-Resume.pdf" id="resume-link-1"
+                                onclick="window.open('https://drive.google.com/file/d/14q8Hi2CFcAafDyQuIosue5bByzTtDu_o/view?usp=sharing')"
                                 target="_blank" download>
                                 <i class="uil uil-download-alt nav_icon"></i> Resume
                             </a>
@@ -67,15 +74,15 @@
                 <i class="uil uil-times nav_close" id="nav-close"></i>
             </div>
             <div class="nav_btns">
-                <!-- ===== Theme Changer ===== -->
+                <!-- Theme Changer -->
                 <i class="uil uil-moon change-theme" id="theme-button"></i>
-
+    
                 <div class="nav_toggle" id="nav-toggle">
                     <i class="uil uil-apps"></i>
                 </div>
             </div>
         </nav>
-    </header>
+    </header>    
     <!-- ========== MAIN ========== -->
     <main class="main">
         <!-- ========== Home ========== -->
@@ -176,7 +183,7 @@
                     <div class="about_buttons">
                         <button class="button" id="resume-button-2">
                             <a href="./Images/Pranay-Tandel-Resume.pdf" class="button-flex" id="resume-link-2"
-                                onclick="window.open('https://drive.google.com/file/d/1-TxPj303E35V_bFD-AXyITZQoGII0plF/view?usp=sharing')"
+                                onclick="window.open('https://drive.google.com/file/d/14q8Hi2CFcAafDyQuIosue5bByzTtDu_o/view?usp=sharing')"
                                 target="_blank" download>
                                 My Resume <i class="uil uil-download-alt button_icon"></i>
                             </a>
@@ -197,13 +204,9 @@
                     </div>
                     <div class="qualification_sections">
                         <!-- ========== Qualification Content 1 ========== -->
-
                         <div class="qualification_content qualification_active" data-content id="education">
-                            
-                            <!-- ========== Qualification 1 ========== -->
                             <div class="qualification_data">
                                 <div>
-
                                     <h3 class="qualification_title">Full Stack Web Development</h3>
                                     <span class="qualification_subtitle">Masai School, Bengaluru</span>
                                     <div class="qualification_calender">
@@ -219,46 +222,60 @@
                         </div>
                         <!-- ========== Qualification Content 2 ========== -->
                         <div class="qualification_content" data-content id="work">
-                            <!-- ========== Experience 1 ========== -->
                             <div class="qualification_data">
-
                                 <div>
-                                    <h3 class="qualification_title">Jr. Engineer Trainee</h3>
-                                    <span class="qualification_subtitle">Conceptual Advisory Service Ltd. Vasai, Mumbai</span>
+                                    <h3 class="qualification_title">Jr. Full Stack Developer</h3>
+                                    <span class="qualification_subtitle">PurpleDocs.com | Vadodara, India</span>
                                     <div class="qualification_calender">
                                         <i class="uil uil-calendar-alt"></i>
-                                        [Jun 2022 - Dec 2022]
+                                        [March 2024 - Present]
                                     </div>
                                 </div>
                                 <div>
                                     <span class="qualification_rounder"></span>
                                     <span class="qualification_line"></span>
                                 </div>
-
                             </div>
-                            <!-- ========== Experience 2 ========== -->
-                            <!-- <div class="qualification_data">
-                                <div></div>
-
-                                <div>
-                                    <span class="qualification_rounder"></span>
-                                    <span class="qualification_line"></span>
+                            <div class="qualification_projects">
+                                <!-- Project 1 -->
+                                <div class="qualification_data">
+                                    <h4 class="qualification_title">Project 1: PurpleCMS – Content Management System</h4>
+                                    <p class="project_description">
+                                        A comprehensive CMS designed for document, image, and video management with advanced access control.
+                                    </p>
+                                    <p><strong>Tech Stack:</strong> Java | Spring Boot | JPA/Hibernate | SQL Server | MySQL | Maven | Git | SVN | BitBucket | Jira</p>
+                                    <ul>
+                                        <li>Developed a role-based access control system with granular permissions.</li>
+                                        <li>Implemented file upload, metadata tagging, and hierarchical folder organization.</li>
+                                        <li>Designed a trash management and audit trail system for secure file handling.</li>
+                                        <li>Created a personalized dashboard displaying favorite and recently accessed files.</li>
+                                        <li>Led a team of developers, overseeing backend implementation and system architecture.</li>
+                                        <li><strong>Achievement:</strong> Received a Certificate of Achievement for successfully leading the project.</li>
+                                    </ul>
                                 </div>
-                                <div>
-                                    <h3 class="qualification_title">Jr.Accountant</h3>
-                                    <span class="qualification_subtitle">Sukhbir Agro Energy LTD, Ghazipur(UP)</span>
-                                    <div class="qualification_calender">
-                                        <i class="uil uil-calendar-alt"></i>
-                                        [July 2016 - Oct 2019]
-                                    </div>
+                                <!-- Project 2 -->
+                                <div class="qualification_data">
+                                    <h4 class="qualification_title">Project 2: EMRD 2.0 (Ongoing)</h4>
+                                    <p class="project_description">
+                                        An upgraded version of the company's legacy Record Management System (RMS), designed for handling both physical and digital records with improved efficiency and security.
+                                    </p>
+                                    <p><strong>Tech Stack:</strong> Java | Spring Boot | JPA/Hibernate | SQL Server | MySQL | Maven | BitBucket | Jira</p>
+                                    <ul>
+                                        <li>Designed and implemented backend logic to handle contract creation, updates, and compliance tracking.</li>
+                                        <li>Developed workflows to streamline document processing, approvals, and tracking.</li>
+                                        <li>Integrated RBAC using ACL to provide fine-grained access control over tasks and user permissions.</li>
+                                        <li>Implemented functionality for record collection, batch uploads, and secure storage.</li>
+                                        <li>Developed encryption mechanisms to secure sensitive data at rest and in transit.</li>
+                                        <li>Engineered a robust search functionality to efficiently locate records based on various metadata attributes.</li>
+                                    </ul>
                                 </div>
-                            </div> -->
-
-
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+            
+            
 
         </section>
 
@@ -278,7 +295,7 @@
                             <i class="uil uil-server-network skills_icon"></i>
                             <div>
                                 <h1 class="skills_title">Backend Development</h1>
-                                <span class="skills_subtitle">6+ months</span>
+                                <span class="skills_subtitle">18+ months</span>
                             </div>
                             <i class="uil uil-angle-down skills_arrow"></i>
                         </div>
@@ -436,6 +453,27 @@
                                     <span class="skills_percentage"></span>
                                 </div>
                             </div>
+
+                            <div class="skills_data skills-card">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name skills-card-name">Jira</h3>
+                                    <span><i class="fa-brands fa-jira skills-card-img"></i></span> <!-- Jira -->
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage"></span>
+                                </div>
+                            </div>
+                            
+                            <div class="skills_data skills-card">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name skills-card-name">Bitbucket</h3>
+                                    <span><i class="fa-brands fa-bitbucket skills-card-img"></i></span> <!-- Bitbucket -->
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage"></span>
+                                </div>
+                            </div>
+                            
 
                             <div class="skills_data skills-card">
                                 <div class="skills_titles">
